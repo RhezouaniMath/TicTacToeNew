@@ -1,3 +1,4 @@
+import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -71,6 +72,38 @@ public class CellTest {
     public void isNotNotPlayed(){
         Cell cell = new Cell('X');
         assertFalse(cell.isNotPlayed());
+    }
+
+    @Test
+    public void playerXplayed(){
+        Game game = new Game();
+        Player player = game.player;
+        Cell cell = new Cell('X');
+        assertTrue(cell.playerPlayed((player)));
+    }
+
+    @Test
+    public void playerXdidNotplay(){
+        Game game = new Game();
+        Player player = game.player;
+        Cell cell = new Cell('O');
+        assertFalse(cell.playerPlayed((player)));
+    }
+
+    @Test
+    public void playerOplayed(){
+        Game game = new Game();
+        Player player = game.player.opponent;
+        Cell cell = new Cell('O');
+        assertTrue(cell.playerPlayed((player)));
+    }
+
+    @Test
+    public void playerOdidNotplay(){
+        Game game = new Game();
+        Player player = game.player.opponent;
+        Cell cell = new Cell('X');
+        assertFalse(cell.playerPlayed((player)));
     }
 
 

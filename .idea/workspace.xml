@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbed7a8d-a38a-4d13-b48b-74a065f69c54" name="Changes" comment="" />
+    <list default="true" id="dbed7a8d-a38a-4d13-b48b-74a065f69c54" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,77 +41,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/a900080/IdeaProjects/TicTacToeNew/src/test/java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a900080/IdeaProjects/TicTacToeNew/src/test/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a900080\IdeaProjects\TicTacToeNew\src\test\java" />
       <recent name="C:\Users\a900080\IdeaProjects\TicTacToeNew\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="TicTacToeNew" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in TicTacToeNew (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.java in TicTacToeNew">
+    <configuration name="CellTest.playerXdidNotplay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TicTacToeNew" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in TicTacToeNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TicTacToeNew" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameTest.opponentHasLetterO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TicTacToeNew" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="opponentHasLetterO" />
+      <option name="MAIN_CLASS_NAME" value="CellTest" />
+      <option name="METHOD_NAME" value="playerXdidNotplay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.playerOfNewGameHasFirstTurn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CellTest.playerXplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToeNew" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CellTest" />
+      <option name="METHOD_NAME" value="playerXplayed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.opponentHasTurnAfterSwitch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TicTacToeNew" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="playerOfNewGameHasFirstTurn" />
+      <option name="METHOD_NAME" value="opponentHasTurnAfterSwitch" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.playHasTurnAfterTwoSwitches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToeNew" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="playHasTurnAfterTwoSwitches" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in TicTacToeNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTacToeNew" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.All in TicTacToeNew (1)" />
-        <item itemvalue="JUnit.All in TicTacToeNew" />
-        <item itemvalue="JUnit.GameTest.opponentHasLetterO" />
-        <item itemvalue="JUnit.GameTest.playerOfNewGameHasFirstTurn" />
+        <item itemvalue="JUnit.java in TicTacToeNew" />
+        <item itemvalue="JUnit.CellTest.playerXdidNotplay" />
+        <item itemvalue="JUnit.CellTest.playerXplayed" />
+        <item itemvalue="JUnit.GameTest.playHasTurnAfterTwoSwitches" />
+        <item itemvalue="JUnit.GameTest.opponentHasTurnAfterSwitch" />
       </list>
     </recent_temporary>
   </component>
@@ -133,14 +143,20 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TicTacToeNew$All_in_TicTacToeNew__1_.ic" NAME="All in TicTacToeNew (1) Coverage Results" MODIFIED="1679619704154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TicTacToeNew$BoardTest_allPositionsArePlayed.ic" NAME="BoardTest.allPositionsArePlayed Coverage Results" MODIFIED="1679615699502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_playerOfNewGameHasLetterX.ic" NAME="GameTest.playerOfNewGameHasLetterX Coverage Results" MODIFIED="1679617471154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_opponentOfNewGameHasLetterO.ic" NAME="GameTest.opponentOfNewGameHasLetterO Coverage Results" MODIFIED="1679617523131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_opponentHasLetterO.ic" NAME="GameTest.opponentHasLetterO Coverage Results" MODIFIED="1679617921626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_playerOfNewGameHasFirstTurn.ic" NAME="GameTest.playerOfNewGameHasFirstTurn Coverage Results" MODIFIED="1679617592702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TicTacToeNew$BoardTest_notAllPositionsArePlayed.ic" NAME="BoardTest.notAllPositionsArePlayed Coverage Results" MODIFIED="1679615942239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$Main.ic" NAME="Main Coverage Results" MODIFIED="1679620517361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$java_in_TicTacToeNew.ic" NAME="java in TicTacToeNew Coverage Results" MODIFIED="1679620531413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_opponentHasTurnAfterSwitch.ic" NAME="GameTest.opponentHasTurnAfterSwitch Coverage Results" MODIFIED="1679620814443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_playHasTurnAfterTwoSwitches.ic" NAME="GameTest.playHasTurnAfterTwoSwitches Coverage Results" MODIFIED="1679620873425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TicTacToeNew$All_in_TicTacToeNew.ic" NAME="All in TicTacToeNew Coverage Results" MODIFIED="1679618680384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_newGameShouldHaveEmptyBoard.ic" NAME="GameTest.newGameShouldHaveEmptyBoard Coverage Results" MODIFIED="1679617382612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$All_in_TicTacToeNew__1_.ic" NAME="All in TicTacToeNew (1) Coverage Results" MODIFIED="1679619704154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_playerOfNewGameHasLetterX.ic" NAME="GameTest.playerOfNewGameHasLetterX Coverage Results" MODIFIED="1679617471154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_opponentHasLetterO.ic" NAME="GameTest.opponentHasLetterO Coverage Results" MODIFIED="1679617921626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$GameTest_playerOfNewGameHasFirstTurn.ic" NAME="GameTest.playerOfNewGameHasFirstTurn Coverage Results" MODIFIED="1679617592702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$CellTest_playerXdidNotplay.ic" NAME="CellTest.playerXdidNotplay Coverage Results" MODIFIED="1679621268556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$BoardTest_notAllPositionsArePlayed.ic" NAME="BoardTest.notAllPositionsArePlayed Coverage Results" MODIFIED="1679615942239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TicTacToeNew$CellTest_playerXplayed.ic" NAME="CellTest.playerXplayed Coverage Results" MODIFIED="1679621217410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

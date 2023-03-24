@@ -33,4 +33,23 @@ public class GameTest {
         Player result = game.turn;
         assertEquals(expected, result);
     }
+
+    @Test
+    public void opponentHasTurnAfterSwitch(){
+        Game game = new Game();
+        game.switchTurn();
+        Player expected = game.player.opponent;
+        Player result = game.turn;
+        assertEquals(expected, result);
+    }
+
+    @Test
+    public void playHasTurnAfterTwoSwitches(){
+        Game game = new Game();
+        game.switchTurn();
+        game.switchTurn();
+        Player expected = game.player;
+        Player result = game.turn;
+        assertEquals(expected, result);
+    }
 }
